@@ -1,0 +1,35 @@
+body {
+  padding-top: 50px;
+}
+.home {
+  background-image: url("http://cdn.c.photoshelter.com/img-get2/I0000993sWtyzqbY/fit=1000x750/OKC-Sunrise-oklahoma-city-skyline-3.jpg");
+ background-repeat: no-repeat;
+  background-position: center;
+}
+.name {
+  padding-top:80px;
+  padding-right:100px;
+  text-align:right;
+}
+.city {
+  padding-bottom:150px;
+  padding-right:100px;
+  text-align:right;
+}
+
+.about{
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
+#profilePic{
+  width: 225px;
+  height: 225px;
+  border-radius: 4%;
+ 
+  
+  
+}
+#top{
+  color: black;
+  font-size: 1.25em;
+}
