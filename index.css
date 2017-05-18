@@ -5,13 +5,13 @@
   background-position: center;
 }
 .name {
-  padding-top:80px;
-  padding-right:100px;
+  padding-top:10px;
+  padding-right:75px;
   text-align:right;
 }
 .city {
   padding-bottom:150px;
-  padding-right:100px;
+  padding-right:75px;
   text-align:right;
 }
 
