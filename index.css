@@ -25,6 +25,7 @@ body{
   margin-bottom: 125px;
   background-color:rgb(194, 215, 215);
   border: 5px solid white;
+  border-radius: 0.5%;
 }
 
 #portfolio{
