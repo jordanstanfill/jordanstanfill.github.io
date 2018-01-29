@@ -11,12 +11,14 @@ body{
   
   text-align:center;
   color: white;
+  text-shadow: 2px 2px 4px black;
 }
 .city {
   padding-bottom:75px;
   
   text-align:center;
   color: white;
+  text-shadow: 2px 2px 4px black;
 }
 
 .about{
@@ -31,6 +33,7 @@ body{
 
 #portfolio{
   margin-bottom:100px;
+  text-shadow: 2px 2px 4px black;
 }
 
 #contact-me{
