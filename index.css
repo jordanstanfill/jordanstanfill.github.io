@@ -1,44 +1,75 @@
-body{
-  background: url("https://images.pexels.com/photos/3773405/pexels-photo-3773405.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") repeat-y center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-attachment: fixed;
+body {
 }
-.name {
-  padding-top:175px;
+.main{
+  background-color: #ededed;
+}
+#welcome-section{
+  height: 100vh;
+  
+}
+#title {
+  padding-top:75px;
   
   text-align:center;
-  color: white;
-  text-shadow: 2px 2px 4px black;
-}
-.city {
-  padding-bottom:75px;
+  color: black;
   
+}
+#subTitle {
+  padding-bottom:50px;
+  padding-top: 30px;
   text-align:center;
-  color: white;
-  text-shadow: 2px 2px 4px black;
+  color: black;
+  
 }
 
 .about{
-  padding-bottom: 20px;
+  margin: auto;
+  padding-top:25px;
+  max-width: 1050px;
   padding-left: 10px;
   padding-right: 20px;
-  margin-bottom: 125px;
+  margin-bottom: 25px;
   background-color:rgb(194, 215, 215);
   border: 5px solid white;
   border-radius: 5px;
 }
 
-#portfolio{
-  margin-bottom:100px;
-  text-shadow: 2px 2px 4px black;
+#aboutInfo{
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 25px;
+}
+#aboutText {
+  width: 67%;
+}
+#aboutPic {
+  width: 33%;
+  text-align: center;
 }
 
+#projects{
+  margin-bottom:100px;
+  padding-top: 50px;
+}
+.grid {
+  margin: auto;
+  max-width: 1050px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-gap: 1rem;
+}
+.project-tile {
+  max-width: 350px;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: block;
+  border: 5px solid white;
+  border-radius: 5px;
+}
 #contact-me{
   /*background-color:rgb(194, 214, 214);*/
-   
+  
 }
 
 #profilePic{
@@ -46,9 +77,28 @@ body{
   max-width: 225px;
   height: auto;
   border-radius: 4%;
-  margin: 0 auto;
- 
+  margin: auto 0;
   
+  
+}
+@media(max-width: 650px){
+  #profilePic{
+display: none;    
+    margin-bottom: 5px;
+  }
+  #aboutText {
+    width: 100%;
+  }
+  #aboutPic {
+    width: 0%;
+  }
+}
+#desktop{
+  width: 100%;
+  max-width: 750px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
   
 }
 #top{
@@ -56,9 +106,7 @@ body{
   font-size: 1.25em;
   text-align: center;
 }
-p{
-  color:white;
-}
+
 a{
   color: white;
 }
