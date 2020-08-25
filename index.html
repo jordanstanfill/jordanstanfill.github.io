@@ -1,17 +1,18 @@
 
+
 <html>
 <head>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
   <link rel="stylesheet" href="https://bootswatch.com/flatly/bootstrap.min.css"/>
- <link rel="stylesheet" href="index.css">
+ <!--<link rel="stylesheet" href="index.css">-->
 <meta name="viewport" content="width=device-width, initial-scale=1">  
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-  <nav class="navbar navbar-default navbar-fixed-top">
+  <nav id="navbar" class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -19,65 +20,74 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                       
       </button>
-    <a class="navbar-brand" href="#home"> Stanfill Web Design</a>
+    <a class="navbar-brand" href="#welcome-section"> Jordan Stanfill</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
     <ul class="nav navbar-nav">
       <li><a href="#about-me">About Me</a></li>
-      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#projects">Portfolio</a></li>
       <li><a href="#contact-me">Contact Me</a></li>
     </ul>
     </div>
     </div>  
 </nav>
  
- <div class="container">
+ <div class="main">
 <!--Home-->
-<div id="home" class="home">
-  <h1 class="name">Jordan Stanfill</h1>
-  <h2 class="city">Oklahoma City</h2>
-  <img class="img-responsive" id="desktop"  src="images/desktop.png">
+<div id="welcome-section" class="home">
+  <h1 id="title">Front-End Developer, Designer, Problem Solver</h1>
+  <h3 id="subTitle">I like to design and code simple and responsive web pages.</h3> 
+  <img id="desktop"  src="https://jordanstanfill.github.io/images/desktop.png">
+  
  </div>
 <!--About Me-->
 <div id="about-me" class="about">
   <h2 class="text-center">About Me</h2>
-  <div class="row">
+  <div id="aboutInfo">
    
-    <div class="col-sm-8">
-  <h3>Aspiring web developer and current educator, devoted to developing web tools for mathematics education</h3>
+    <div id="aboutText">
+  <h3>I am a self-taught web developer with passions for problem solving, teaching, and learning. I like to create clean, mobile friendly designs that are easy to use.</h3>
       
-     <h3> Proficient in HTML5, CSS3, JavaScript, Bootstrap 4, and jQuery</h3>
+     <h3> I'm proficient in HTML5, CSS3, JavaScript, Bootstrap 4, SCSS, and jQuery. I have experience with PHP, MySQL, C, and React. I enjoy learning new technologies to solve problems.</h3>
   </div>
-    <div class="row-sm-4">
-      <img class="img-responsive" id="profilePic"  src="images/profile.JPG">
+    <div id="aboutPic">
+      <img id="profilePic"  src="https://jordanstanfill.github.io/images/profile.JPG">
     </div>
    </div>
    </div>
 <!--Portfolio-->  
-<div id="portfolio">
-  <h2 class="text-center" style="color:white;">Portfolio</h2>
- <div class="row">
+<div id="projects">
+  <h2 class="text-center" >Portfolio</h2>
+ <div class="grid">
    <!--Tribute Page-->
-   <div class="col-sm-6">
-  <a href="https://codepen.io/jordanstanfill12/full/wJWMmO/" target="blank"> <img src="http://i.imgur.com/OA5cBdO.jpg" class="img-thumbnail" alt="Paulo Freire"></a>
+   <div>
+  <a href="https://codepen.io/jordanstanfill12/full/wJWMmO/" target="blank"> <img src="http://i.imgur.com/OA5cBdO.jpg" class="project-tile" alt="Paulo Freire"></a>
      <p class="text-center">Tribute Page</p>
   </div>
    <!--Dice Simulator-->
-  <div class="col-sm-6">
-    <a href="https://codepen.io/jordanstanfill12/full/xrENyg/" target="blank"> <img src="https://i.imgur.com/4Mje7zx.jpg" class="img-thumbnail" alt="Dice Simulator"></a>
+  <div>
+    <a href="https://codepen.io/jordanstanfill12/full/oNxLBWe" target="blank"> <img src="https://i.imgur.com/4Mje7zx.jpg" class="project-tile" alt="Dice Simulator"></a>
     <p class="text-center">Dice Simulator</p>
   </div>
-  </div>
-  <div class="row">
     <!--Business Solutions-->
-    <div class="col-sm-6">
-      <a href="https://codepen.io/jordanstanfill12/full/oEgrVB/" target="blank"> <img src="https://i.imgur.com/KrEbQvm.png" class="img-thumbnail" alt="Business Solutions"></a>
+    <div>
+      <a href="https://codepen.io/jordanstanfill12/full/oEgrVB/" target="blank"> <img src="https://i.imgur.com/KrEbQvm.png" class="project-tile" alt="Business Solutions"></a>
     <p class="text-center">Coding Exercise-Business Solutions</p>
     </div>
     <!--Rock Paper Scissors Game-->
-    <div class="col-sm-6">
-      <a href="https://codepen.io/jordanstanfill12/full/YzzVxGQ" target="blank"><img src="https://i.imgur.com/MJwOVSR.png" class="img-thumbnail" alt="RockPaperScissors Challenge"></a>
+    <div>
+      <a href="https://codepen.io/jordanstanfill12/full/YzzVxGQ" target="blank"><img src="https://i.imgur.com/MJwOVSR.png" class="project-tile" alt="RockPaperScissors Challenge"></a>
     <p class="text-center">Rock Paper Scissors Challenge</p>
+    </div>
+   <!--Technical Documentation Page-->
+    <div>
+      <a href="https://codepen.io/jordanstanfill12/full/eYJvqYe" target="_blank"> <img src="https://i.imgur.com/WdJvGkw.png"class="project-tile" alt="Technical Documentation"></a>
+    <p class="text-center">Technical Documentation Page</p>
+    </div>
+   <!--Product Landing Page-->
+    <div>
+      <a href="https://codepen.io/jordanstanfill12/full/XWXeJPa" target="_blank"> <img src="https://i.imgur.com/j5g2HjM.png" class="project-tile" alt="Product Landing"></a>
+    <p class="text-center">Product Landing Page</p>
     </div>
   </div>
   </div>
@@ -88,9 +98,15 @@
   <a href="https://twitter.com/jordan_stanfill" target="blank" class="btn btn-default btn-lg" role="button"><i class="fa fa-twitter"></i></a>
     <a href="https://www.linkedin.com/in/jordan-stanfill-a76274138" target="blank" class="btn btn-default btn-lg" role="button"><i class="fa fa-linkedin"></i></a>
     <a href="https://github.com/jordanstanfill" target="blank" class="btn btn-default btn-lg" role="button"><i class="fa fa-github"></i></a>
-    <a href="https://www.freecodecamp.com/jordanstanfill" target="blank" class="btn btn-default btn-lg" role="button"><i class="fa fa-free-code-camp"></i></a>
+    <a href="https://www.freecodecamp.com/jordanstanfill" target="_blank" id="profile-link" class="btn btn-default btn-lg" role="button"><i class="fa fa-free-code-camp"></i></a>
+     <a href="https://codepen.io/jordanstanfill12" target="_blank" id="profile-link" class="btn btn-default btn-lg" role="button"><i class="fa fa-codepen"></i></a>
+     <a href="https://fontawesome.com/v4.7.0/" target="_blank" id="profile-link" class="btn btn-default btn-lg" role="button"><i class="fa fa-font-awesome"></i></a>
+     
   </div>
-  <p id="top"><a href="#home">home</a></p>
+  
+  
+   
+  
   </div>
 </div>  
 </body>
